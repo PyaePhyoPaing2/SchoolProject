@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Add Data</title>
+    <title>Add Data Page </title>
 </head>
 
 <body>
@@ -116,7 +116,7 @@
             echo "<br/><a href='index.php'>View Result</a>";
         }
     } else {
-        // first if 
+        //  if  submit button get error 
         // header("location:index.php");
         echo "<p> Error</p>";
     }

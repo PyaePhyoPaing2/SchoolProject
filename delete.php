@@ -8,7 +8,7 @@ $id = $_GET['id'];
 $delete_file = mysqli_query($mysqli,"SELECT * FROM images WHERE id=$id");
 
 $res = mysqli_fetch_array($delete_file);
-unlink("uploads/".$res['image_url']);
+unlink("uploads/".$res['image_url']); // delete image from file path 
 //deleting the row from table
 $result = mysqli_query($mysqli, "DELETE FROM images WHERE id=$id");
 

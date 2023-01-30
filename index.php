@@ -20,7 +20,6 @@
         <p><?php echo $_GET['error']; ?></p>
     <?php endif ?>
     <div class="wrap">
-    
         <div id="map"></div>
     </div>
     <div id="ShowContent">
